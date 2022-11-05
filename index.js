@@ -44,13 +44,13 @@ app.post("/sendEmail", function (req, res) {
 	    port: 587, 
 	    tls: { rejectUnauthorized: false },
 	    auth: {
-	        user: "bppr1963@outlook.com",
-			pass: "6712129Ab"
+	        user: "umd-hash@outlook.com",
+			pass: "Min2018*"
 	    }	   
 	});
 	
 	var mailOptions = {
-	    from: '"Uniminuto hash generator " <bppr1963@outlook.com>', 
+	    from: '"Uniminuto hash generator " <umd-hash@outlook.com>', 
 	    to: toAddress, 
 	    subject: subject, 
 	    text: text , 
