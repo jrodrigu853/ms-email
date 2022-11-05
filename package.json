@@ -4,7 +4,8 @@
   "description": "Microservice to send email",
   "main": "index.js",
   "scripts": {
-    "test": "start"
+    "test": "start",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
